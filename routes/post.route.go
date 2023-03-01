@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/wpcodevo/golang-postgresql-api/controllers"
+	"github.com/mvkc2176/golang-postgresql-api/controllers"
 )
 
 type PostRoutes struct {

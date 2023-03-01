@@ -1,4 +1,4 @@
-module github.com/wpcodevo/golang-postgresql-api
+module github.com/mvkc2176/golang-postgresql-api
 
 go 1.18
 

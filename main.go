@@ -9,10 +9,10 @@ import (
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"github.com/wpcodevo/golang-postgresql-api/config"
-	"github.com/wpcodevo/golang-postgresql-api/controllers"
-	dbConn "github.com/wpcodevo/golang-postgresql-api/db/sqlc"
-	"github.com/wpcodevo/golang-postgresql-api/routes"
+	"github.com/mvkc2176/golang-postgresql-api/config"
+	"github.com/mvkc2176/golang-postgresql-api/controllers"
+	dbConn "github.com/mvkc2176/golang-postgresql-api/db/sqlc"
+	"github.com/mvkc2176/golang-postgresql-api/routes"
 
 	_ "github.com/lib/pq"
 )
@@ -54,7 +54,7 @@ func main() {
 
 	if err != nil {
 		log.Fatalf("could not load config: %v", err)
-	}
+	}+
 
 	corsConfig := cors.DefaultConfig()
 	corsConfig.AllowOrigins = []string{config.Origin}

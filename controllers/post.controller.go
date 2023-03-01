@@ -9,8 +9,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	db "github.com/wpcodevo/golang-postgresql-api/db/sqlc"
-	"github.com/wpcodevo/golang-postgresql-api/schemas"
+	db "github.com/mvkc2176/golang-postgresql-api/db/sqlc"
+	"github.com/mvkc2176/golang-postgresql-api/schemas"
 )
 
 type PostController struct {
